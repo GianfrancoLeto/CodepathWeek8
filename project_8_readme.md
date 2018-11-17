@@ -17,34 +17,34 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection
-Desc: Just by altering the URL, we can see that it is vulnerable to injection since it is readingthe user input as a command.
+  -Desc: Just by altering the URL, we can see that it is vulnerable to injection since it is readingthe user input as a command.
 ![](week8Gif/blue1.gif)
 
 
 Vulnerability #2: Session Hijacking
-Desc: Using the session tool, we can steal the session and login!
+  -Desc: Using the session tool, we can steal the session and login!
 ![](week8Gif/blue2.gif)
 
 ## Green
 
 Vulnerability #1: Enumeration
-Desc: Valid users appear bolded, fake ones are just regular. Can help the attacker find real usernames.
+  -Desc: Valid users appear bolded, fake ones are just regular. Can help the attacker find real usernames.
 ![](week8Gif/green1.gif)
 
 
 Vulnerability #2: Stored XSS
-Desc: We can inject js into the feedback mechanism and it will actually run it...
+  -Desc: We can inject js into the feedback mechanism and it will actually run it...
 ![](week8Gif/green2.gif)
 
 ## Red
 
 Vulnerability #1: IDOR
-Desc: Again altering the URL, we can find users we are not supposed to see.
+  -Desc: Again altering the URL, we can find users we are not supposed to see.
 ![](week8Gif/red1.gif)
 
 
 Vulnerability #2: CSRF
-Desc: Wrote a short form that can be inserted on the feedback page using an iframe and script. When admin logs in and checks the feedback page, the script is ran within a hidden iframe and the user "Elisabeth Olson" is changed.
+  -Desc: Wrote a short form that can be inserted on the feedback page using an iframe and script. When admin logs in and checks the feedback page, the script is ran within a hidden iframe and the user "Elisabeth Olson" is changed.
 ![](week8Gif/red2.gif)
 
 ## Notes

@@ -17,7 +17,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 - [ ] Vulnerability #1: SQL Injection
-    -Desc: Just by altering the URL, we can see that it is vulnerable to injection since it is readingthe user input as a command.
+    -Desc: Just by altering the URL, we can see that it is vulnerable to injection since it is reading the user input as a command.
 ![](week8Gif/blue1.gif)
 
 - [ ] Vulnerability #2: Session Hijacking

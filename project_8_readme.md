@@ -17,25 +17,25 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection
-![](week8GIFS/blue1.gif)
+![](week8Gif/blue1.gif)
 
 Vulnerability #2: Session Hijacking
-![](week8GIFS/blue2.gif)
+![](week8Gif/blue2.gif)
 
 ## Green
 
 Vulnerability #1: Enumeration
-![](week8GIFS/green1.gif)
+![](week8Gif/green1.gif)
 
 Vulnerability #2: Stored XSS
-![](week8GIFS/green2.gif)
+![](week8Gif/green2.gif)
 ## Red
 
 Vulnerability #1: IDOR
-![](week8GIFS/red1.gif)
+![](week8Gif/red1.gif)
 
 Vulnerability #2: CSRF
-![](week8GIFS/red2.gif)
+![](week8Gif/red2.gif)
 
 ## Notes
 
